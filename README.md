@@ -1,7 +1,7 @@
 
 <div align="center">
   
-# githubrepoinfo
+# githubinformation
 
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/wfxey/githubrepoinfo#license)  [![PyPi](https://img.shields.io/badge/PyPi%20Link-FFFF00)](https://pypi.org/project/githubrepoinfo/)  <a href="https://github.com/wfxey/githubrepoinfo/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors-anon/wfxey/githubrepoinfo" alt="Contributors badge" /></a>  
 
@@ -11,27 +11,27 @@ A tool that lets you check your GitHub Project for updates.
 
 ## Installation
 
-You can install `githubrepoinfo` using pip:
+You can install `githubinformation` using pip:
 
 ```bash
-pip install githubrepoinfo
+pip install githubinformation
 ```
 # .repo
 
 ### get_repo_info(owner, repo)
 
 ```python
-import githubrepoinfo
+import githubinformation
 
-repo_info = githubrepoinfo.repo.get_repo_info("wfxey", "binaryconvert")
+repo_info = githubinformation.repo.get_repo_info("wfxey", "binaryconvert")
 ```
 
 ### All subinfos
 
 ```python
-import githubrepoinfo
+import githubinformation
 
-repo_info = githubrepoinfo.repo.get_repo_info("wfxey", "binaryconvert")
+repo_info = githubinformation.repo.get_repo_info("wfxey", "binaryconvert")
 
 if repo_info:
   print(f"Repository: {repo_info['full_name']}")
@@ -59,9 +59,9 @@ Open Issues: 0
 ### user_link(user)
 
 ```python
-import githubrepoinfo 
+import githubinformation
 
-githubrepoinfo.user.user_link("wfxey")
+githubinformation.user.user_link("wfxey")
 ```
 ### Output
 ```bash
@@ -75,9 +75,9 @@ https://github.com/wfxey
 ### release_link(name_and_repo, tag)
 
 ```python
-import githubrepoinfo 
+import githubinformation
 
-githubrepoinfo.release.release_link("D-I-Projects/diec", "v1.0")
+githubinformation.release.release_link("D-I-Projects/diec", "v1.0")
 ```
 ### Output 
 ```bash
