@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name='githubrepoinfo',
+    name='githubinformation',
     version='1.0',
     packages=find_packages(),
     license='MIT',
@@ -13,8 +13,8 @@ setup(
     author_email='projectsdi02@gmail.com',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/wfxey/githubupdater',
-    download_url='https://github.com/wfxey/githubrepoinfo/archive/refs/tags/v1.0.tar.gz',
+    url='https://github.com/wfxey/githubinformation',
+    download_url='https://github.com/wfxey/githubinformation/archive/refs/tags/v1.0.tar.gz',
     keywords=['updates', 'github', 'check-for-updates'],
     install_requires=[
         'requests',
