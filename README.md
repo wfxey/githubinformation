@@ -9,8 +9,13 @@ You can install `githubrepoinfo` using pip:
 ```bash
 pip install githubrepoinfo
 ```
+# .repo
+
+<hr>
 
 # .user
+
+### user_link(user)
 
 ```python
 import githubrepoinfo 
@@ -21,7 +26,12 @@ githubrepoinfo.user.user_link("wfxey")
 ```bash
 https://github.com/wfxey
 ```
+
+<hr>
+
 # .release
+
+### release_link(name_and_repo, tag)
 
 ```python
 import githubrepoinfo 
