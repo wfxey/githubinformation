@@ -8,4 +8,28 @@ You can install `githubrepoinfo` using pip:
 
 ```bash
 pip install githubrepoinfo
+```
+
+# .user
+
+```python
+import githubrepoinfo 
+
+githubrepoinfo.user.user_link("wfxey")
+```
+## Output
+```bash
+https://github.com/wfxey
+```
+# .release
+
+```python
+import githubrepoinfo 
+
+githubrepoinfo.release.release_link("D-I-Projects/diec", "v1.0")
+```
+## Output 
+```bash
+https://github.com/D-I-Projects/diec/releases/tag/v1.0
+```
 
