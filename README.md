@@ -11,6 +11,14 @@ pip install githubrepoinfo
 ```
 # .repo
 
+### get_repo_info(owner, repo)
+
+```python
+import githubrepoinfo
+
+repo_info = githubrepoinfo.repo.get_repo_info("wfxey", "binaryconvert")
+```
+
 <hr>
 
 # .user
@@ -22,7 +30,7 @@ import githubrepoinfo
 
 githubrepoinfo.user.user_link("wfxey")
 ```
-## Output
+### Output
 ```bash
 https://github.com/wfxey
 ```
@@ -38,8 +46,10 @@ import githubrepoinfo
 
 githubrepoinfo.release.release_link("D-I-Projects/diec", "v1.0")
 ```
-## Output 
+### Output 
 ```bash
 https://github.com/D-I-Projects/diec/releases/tag/v1.0
 ```
+
+<hr>
 
