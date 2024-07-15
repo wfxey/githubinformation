@@ -19,8 +19,32 @@ import githubrepoinfo
 repo_info = githubrepoinfo.repo.get_repo_info("wfxey", "binaryconvert")
 ```
 
-### 
+### All subinfos
 
+```python
+import githubrepoinfo
+
+repo_info = githubrepoinfo.repo.get_repo_info("wfxey", "binaryconvert")
+
+if repo_info:
+  print(f"Repository: {repo_info['full_name']}")
+  print(f"Description: {get_description(repo_info)}")
+  print(f"Stars: {get_stars(repo_info)}")
+  print(f"Forks: {get_forks(repo_info)}")
+  print(f"Open Issues: {get_open_issues(repo_info)}")
+    
+repo_link(f"{owner}/{repo}")
+```
+
+### Output 
+
+```bash
+Repository: wfxey/binaryconvert
+Description: A super easy python tool that converts your text in binary language 8x Bit
+Stars: 1
+Forks: 0
+Open Issues: 0
+```
 <hr>
 
 # .user
