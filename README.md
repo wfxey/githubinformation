@@ -3,7 +3,7 @@
   
 # githubinformation
 
-[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/wfxey/githubinformation#license)  [![PyPi](https://img.shields.io/badge/PyPi%20Link-FFFF00)](https://pypi.org/project/githubinformation/)  <a href="https://github.com/wfxey/githubinformation/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors-anon/wfxey/githubinformation" alt="Contributors badge" /></a>  
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/wfxey/githubinformation#license)  [![PyPi](https://img.shields.io/badge/PyPi%20Link-FFFF00)](https://pypi.org/project/githubinformation/)  <a href="https://github.com/wfxey/githubinformation/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors-anon/wfxey/githubinformation" alt="Contributors badge" /></a> ![PyPI - Downloads](https://img.shields.io/pypi/dm/githubinformation)
 
 A tool that lets you check your GitHub Project for updates.
 
